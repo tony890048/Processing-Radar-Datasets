@@ -61,6 +61,6 @@ for year in [2016, 2017, 2018]:
 
                     imageio.imwrite(f"{save_dir}/{dt.strftime('%Y%m%d%H%M')}.tiff", process(data[i], args.region))
 
-                    pbar.update(1)  # 更新進度條
+                    pbar.update(1) 
 
 pbar.close()
