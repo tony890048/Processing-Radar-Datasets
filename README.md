@@ -257,12 +257,12 @@ img[img == 255] = 0     # masking
 img = img / 70.0        # normalizing
 ```
 
-Each processed sample is saved according to its timestamp. For example, an event recorded at **12:05 on 2016-08-08** will be stored under the path:
+Each processed sample is saved according to its timestamp. For example, an event recorded at **12:05 on 2016-08-31** will be stored under the path:
 ```
 2016/
   └── 08/
-      └── 08/
-          └── 201608081205.tiff
+      └── 31/
+          └── 201608311205.tiff
 ```
 
 The entire pre-processing workflow can be executed using:
